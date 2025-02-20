@@ -20,7 +20,7 @@ function ProjectDetails() {
     }, [])
     return (
         <div className='flex flex-col items-center w-full text-white '>
-            <div className='w-full md:w-[80%] flex flex-row mt-8 items-center py-2.5 bg-bg-gray gap-3 px-5'>
+            <div className='w-full md:w-[80%] flex flex-row items-center py-2.5 bg-bg-gray gap-3 px-5'>
                 <IoIosArrowBack size={40} onClick={() => navigate(-1)} className='hover:cursor-pointer' />
                 <h1 className='text-3xl uppercase font line-clamp-1'>{projectsData ? projectTitle : "Project not found"}</h1>
             </div>
@@ -37,7 +37,7 @@ function ProjectDetails() {
                                 className='iframe'
                                 style={{
                                     position: "fixed",
-                                    top: "100px",
+                                    top: "60px",
                                     bottom: "0px",
                                     right: "0px",
                                     width: "100%",
@@ -48,7 +48,7 @@ function ProjectDetails() {
                                     zIndex: "999999",
                                     height: "calc(100% - 100px"
                                 }}
-                            /> : <div className="flex flex-col items-center justify-center  text-center px-4 " style={{ height: "calc(100vh - 100px)" }}>
+                            /> : <div className="flex flex-col items-center justify-center  text-center px-4 " style={{ height: "calc(100vh - 60px)" }}>
                                 <h2 className="text-3xl font-semibold text-gray-700 dark:text-gray-300 mt-4">Coming soon..😉</h2>
                                 <p className="text-gray-500 dar k:text-gray-400 mt-2">
                                     The project you're looking for is currently under building process and will be available soon.
