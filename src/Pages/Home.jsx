@@ -1,5 +1,5 @@
 import React from 'react'
-import Services from '../components/services'
+import Services from '../components/Services'
 import Projects from '../components/ProjectsHome'
 import Contact from '../components/Contact'
 import Fotter from '../components/Fotter'
