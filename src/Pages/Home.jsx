@@ -1,5 +1,4 @@
 import React from 'react'
-import { motion } from "motion/react"
 import Services from '../components/services'
 import Projects from '../components/ProjectsHome'
 import Contact from '../components/Contact'
