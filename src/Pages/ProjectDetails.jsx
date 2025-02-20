@@ -46,7 +46,7 @@ function ProjectDetails() {
                                     padding: "0",
                                     overflow: "hidden",
                                     zIndex: "999999",
-                                    height: "calc(100% - 100px"
+                                    height: "calc(100% - 60px"
                                 }}
                             /> : <div className="flex flex-col items-center justify-center  text-center px-4 " style={{ height: "calc(100vh - 60px)" }}>
                                 <h2 className="text-3xl font-semibold text-gray-700 dark:text-gray-300 mt-4">Coming soon..😉</h2>
