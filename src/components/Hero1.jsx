@@ -20,7 +20,7 @@ function Hero1() {
     return (
         <div className='flex items-start justify-center w-full relative md:w-[80%] mx-auto mt-16 md:mt-0' ref={scrollable}>
             <div className='flex flex-col gap-20 my-10 '>
-                <div className='px-5  md:h-screen flex justify-center flex-col items-start'>
+                <div className='px-5  md:h-screen flex justify-center flex-col items-start mt-[44px]'>
                     <h1>
                         <motion.span initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1, transition: { delay: 0.3 } }} className='text-start font-noto-sans text-text-color text-5xl md:text-6xl md:tracking-[-2px] font-thin italic md:leading-[60px] '>
