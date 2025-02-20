@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { motion, useScroll, useTransform } from "motion/react"
-import Typewriter from './TypeWriter'
+import Typewriter from './Typewriter'
 import { TbArrowBadgeRightFilled } from "react-icons/tb";
 import SideRobot from './SideRobot';
 
