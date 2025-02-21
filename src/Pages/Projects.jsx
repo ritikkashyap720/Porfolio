@@ -16,7 +16,7 @@ function Projects() {
 
     return (
         <div className='flex flex-col items-center w-full text-white relative gap-5 '>
-            <div className='w-full md:w-[80%] flex flex-row mt-8 items-center sticky top-0 py-2.5 bg-bg-gray gap-3 transition px-5'>
+            <div className='w-full md:w-[80%] flex flex-row items-center sticky top-0 py-2.5 bg-bg-gray gap-3 transition px-5'>
                 <IoIosArrowBack size={40} onClick={() => navigate(-1)} className='hover:cursor-pointer' />
                 <h1 className='text-3xl uppercase font'>Projects</h1>
             </div>
